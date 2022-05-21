@@ -45,7 +45,7 @@ Route to upload an image. User needs to upload an image and a
 name of the person through a POST request. If the face-recognition library does not detect a face, the image is simply ignored.   
 
     Input JSON format:
-    ```json
+    ```
     {  
         ‘file’: <FileObject>,   
         ‘name’: <PersonNameAsText>  
@@ -60,7 +60,7 @@ inside a subfolder with a name of the person whose images are inside the folder.
 This zip file is unzipped, stored in a unique folder in /static folder, and then the files loaded onto the database.
     
     Input JSON format:
-    ```json
+    ```
     {  
         ‘file’: <ZipFile>,    
     }
