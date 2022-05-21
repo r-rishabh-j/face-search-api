@@ -11,7 +11,7 @@ from api.heap import Heap
 
 app = Flask(__name__)
 # replace postgres:pgh1h2 by your <username>:<password>
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://postgres:pgh1h2@localhost:5432/face_api"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql+psycopg2://postgres:1234@localhost:5432/face_api"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['UPLOAD_FOLDER'] = './static'
 app.config['DB_AUTO_COMMIT'] = True
