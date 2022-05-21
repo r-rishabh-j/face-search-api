@@ -126,3 +126,4 @@ usage of the program.
 - The page will show links to the various endpoints.
 - Click the links and interact with the application.
 
+Note: This project was a part of the course CS305 @IIT Ropar
